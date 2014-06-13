@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">j513-android-menus</string>
+    <string name="saludo">Hola. Te mostrare las opciones del menu</string>
+    <string name="opcion_1">Menu opcion 1</string>
+    <string name="opcion_2">Menu opcion 2</string>
+    <string name="opcion_3">Menu opcion 3</string>
+    <string name="opcion_31">Submenu opcion 31</string>
+    <string name="opcion_32">Submenu opcion 32</string>
+
+</resources>

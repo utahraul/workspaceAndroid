@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">j513-android-cuadrostexto</string>
+    <string name="etiqueta_texto">Escribe algun texto</string>
+    <string name="boton_negrita">Boton negrita</string>
+    <string name="boton_insertar">Insertar Texto</string>
+    <string name="boton_imagen">Boton Imagen</string>
+
+</resources>

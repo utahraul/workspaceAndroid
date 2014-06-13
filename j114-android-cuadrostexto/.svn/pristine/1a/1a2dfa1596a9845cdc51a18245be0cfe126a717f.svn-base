@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/LblEtiqueta"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#AA44FF"
+        android:text="@string/etiqueta_texto"
+        android:typeface="monospace" />
+    
+    <EditText
+        android:id="@+id/TxtTexto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LblEtiqueta"
+        android:inputType="text"/>
+    
+    <Button
+        android:id="@+id/BtnNegrita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/TxtTexto"
+        android:text="@string/boton_negrita" />
+
+    <Button
+        android:id="@+id/BtnSetText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TxtTexto"
+        android:layout_toLeftOf="@id/BtnNegrita"
+        android:text="@string/boton_insertar" />
+
+    <ImageView
+        android:id="@+id/ImgFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/BtnNegrita"
+        android:contentDescription="@string/boton_imagen"
+        android:src="@drawable/icon" />
+    
+</RelativeLayout>

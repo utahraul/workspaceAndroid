@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/etinombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00EE00"
+                android:text="@string/eti_nombre"
+                android:textColor="#888888" />
+
+            <EditText
+                android:id="@+id/TxtNombre"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/etiapellido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00EE00"
+                android:text="@string/eti_apellido"
+                android:textColor="#888888" />
+
+            <EditText
+                android:id="@+id/TxtApellido"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/LblEstado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00EE00"
+                android:text="@string/eti_civil"
+                android:textColor="#888888" />
+
+            <RadioGroup
+                android:id="@+id/Grupo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/soltero"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="@string/eti_soltero" />
+
+                <RadioButton
+                    android:id="@+id/casado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="@string/eti_casado" />
+
+                <RadioButton
+                    android:id="@+id/viudo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="@string/eti_viudo" />
+
+                <RadioButton
+                    android:id="@+id/divorciado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="@string/eti_divorciado" />
+            </RadioGroup>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/LblCarnet"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="#00EE00"
+                android:text="@string/eti_carnet"
+                android:textColor="#888888" />
+
+            <CheckBox
+                android:id="@+id/Chkcarnet"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/texto_checkbox" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/boton_alta"
+                android:text="@string/boton_alta"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/boton_baja"
+                android:text="@string/boton_baja"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/boton_consulta"
+                android:text="@string/boton_consulta"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/boton_modificacion"
+                android:text="@string/boton_modificacion"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/respuesta"
+                android:fontFamily="TimesNewRoman"
+                android:textSize="25sp" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

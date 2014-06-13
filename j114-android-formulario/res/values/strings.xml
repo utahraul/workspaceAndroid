@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">j513-android-formulario</string>
+    <string name="eti_nombre">Introduce Nombre:</string>
+    <string name="eti_apellido">Introduce Apellido:</string>
+    <string name="eti_civil">Estado Civil:</string>
+    <string name="eti_soltero">Soltero</string>
+    <string name="eti_casado">Casado</string>
+    <string name="eti_viudo">Viudo</string>
+    <string name="eti_divorciado">Divorciado</string>
+    <string name="eti_carnet">Carnet de conducir:</string>
+    <string name="texto_checkbox">Tengo permiso</string>
+    <string name="texto_enviooff">Enviar</string>
+    <string name="texto_envioon">Dado de alta</string>
+    <string name="title_activity_receptor__formulario">Receptor_Formulario</string>
+    <string name="texto_confirmacion">Proceso en marcha</string>
+    <string name="title_activity_receptor__formualrio">Receptor_Formualrio</string>
+    <string name="boton_alta">Alta</string>
+    <string name="boton_baja">Baja</string>
+    <string name="boton_modificacion">Modificacion</string>
+    <string name="boton_consulta">Consulta</string>
+
+</resources>

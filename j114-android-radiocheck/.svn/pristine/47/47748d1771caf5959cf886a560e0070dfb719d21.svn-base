@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">j513-android-radiocheck</string>
+    <string name="texto_check">Márcame!</string>
+    <string name="texto_etiqueta">ID opción seleccionada: (ninguna)</string>
+    <string name="texto_opcion1">Opción 1</string>
+    <string name="texto_opcion2">Opción 2</string>
+
+</resources>
